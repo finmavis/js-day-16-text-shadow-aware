@@ -1,0 +1,21 @@
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.wrapper {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapper h1 {
+  font-size: 10rem;
+  text-shadow: 1rem 1rem 0.5rem rgba(0, 0, 0, 0.1);
+}
